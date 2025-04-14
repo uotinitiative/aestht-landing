@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aestht – Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .gradient-text {
+        background: linear-gradient(90deg, #ff0000, #6e00ff, #d00a9b9f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 flex items-center justify-center min-h-screen px-4">
+    <div class="max-w-md w-full text-center">
+      <!-- Gradient Logo Text -->
+      <h1 class="text-5xl font-bold mb-4 tracking-tight gradient-text">aestht</h1>
+
+      <!-- Tagline -->
+      <p class="text-lg mb-8 text-gray-600">Coming soon. Be the first to know.</p>
+
+      <!-- Signup Form -->
+      <form
+        action="https://formsubmit.co/YOUREMAIL@example.com"
+        method="POST"
+        class="flex flex-col gap-4"
+      >
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+          class="px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+        />
+        <button
+          type="submit"
+          class="bg-black text-white px-4 py-3 rounded-md font-medium hover:bg-gray-800 transition"
+        >
+          Notify Me
+        </button>
+      </form>
+
+      <!-- Footer -->
+      <p class="text-xs text-gray-400 mt-6">&copy; 2025 aestht. All rights reserved.</p>
+    </div>
+  </body>
+</html>
